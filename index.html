@@ -11,19 +11,33 @@
         <div id="content">
             <header>
                 <form>
-                    <input type="text" placeholder="City Name"/>
-                    <button class="submit-btn"></button>
+                    <input id="search-bar" type="text" class="search-bar" placeholder="City Name"/>
+                    <button id="submit-btn" class="submit-btn"></button>
                 </form>
+               
             </header>
+            <p id="error">Error: City not found</p>
             <main id="display" class="display">
                 <div id="info" class="weather-info">
-                    
+                    <p id="desc">
+                      
+                    </p>
+                    <h1 id="location">
+                       
+                    </h1>
+                    <p id="temperature"></p>
+                    <div id="more-info">
+                        <p id="feels-like" class="info feelslike">
+                           
+                        </p>
+                        <p id="humidity" class="info">
+                            
+                        </p>
+                    </div> 
                 </div>
-                <div id="upcoming" class="upcoming-weather">
-
-                </div>
+                
             </main>
         </div>
-
+        <script src="script.js"></script>
     </body>
 </html>
